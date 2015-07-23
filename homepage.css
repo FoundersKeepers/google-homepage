@@ -1,30 +1,78 @@
 @charset "utf-8";
 
-div.topright p{
 
-display: inline;
-padding: 10px;
-
+html,body { height:95%;
+font-family: calibri;
 }
 
 
-div.leftbottom p{
+button{
+font-family: arial;
+	height: 29px;
+	background-color: #f5f5f5;
+	border: solid 1px;
+	border-color: #C0C0C0 ;
+	border-radius:2px;
+}
 
-display: inline;
-padding: 10px;
-position: relative;
-bottom: 0px;
+a:hover {
+   text-decoration: underline;
 }
 
 
-div.rightbottom p{
+a{
+color: #707070  ;
+text-decoration: none;
 
-display: inline;
-padding: 10px;
-position: relative;
+
+
+}
+
+span{
+color: #666;
+margin-right: 20px;
+
+}
+
+div.topright {
+margin-left: 10px;
+float:right;
+margin-top: 10px;
+margin-bottom: 10%;
+}
+
+
+div.leftbottom{
+position: fixed;
+bottom: 0;
+left: 0;
+margin-left:20px;
+margin-bottom: 15px;
+
+
+}
+
+img{
+
+	vertical-align: middle;
+}
+
+div.rightbottom {
+position: fixed;
+bottom: 0;
+right: 0;
+margin-bottom: 15px;
+
+
+}
+div#footercolor{
+background-color:#F0F0F0;
+width: 100%;
+left: 0px;
 bottom: 0px;
-right: 0px;
-
+position: fixed;
+height:7%;
+z-index: -1;
 }
 
 #google {
@@ -33,6 +81,7 @@ right: 0px;
   display: block;
   margin-top:7%;
   margin-bottom: 30px;
+  clear: both;
   
    
 }
@@ -49,14 +98,14 @@ display: inline-block;
 
 #textbox{
 border:1px solid #d3d3d3 ;
-width:600px;
+width:550px;
 height:25px;
 margin-right: auto;
 margin-left: auto;
 display: block;
  background: url(mic.png) no-repeat center;
   background-size: 13px 17px ;
-  background-position: 585px;
+  background-position: 535px;
 margin-bottom: 15px;
 
 
